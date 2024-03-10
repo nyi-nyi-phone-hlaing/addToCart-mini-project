@@ -5,15 +5,14 @@ const CartItem = ({ fruit }) => {
   return (
     <div className='cart-item' key={fruit.id}>
       <h2>{fruit.name}</h2>
+      <p className='price'>
+        Price: $ <span>{fruit.price}</span>
+      </p>
       <div className='row'>
-        <p>
-          Price: $ <span>{fruit.price}</span>
-        </p>
-        <div className='right'>
-          <input type='number' min={1} max={10} />
-        </div>
+        <button className='decrese'>-</button>
+        <input type='number' min={1} max={10} />
+        <button className='increse'>+</button>
       </div>
-      <p>{fruit.description}</p>
     </div>
   );
 };
