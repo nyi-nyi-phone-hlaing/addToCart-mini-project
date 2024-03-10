@@ -1,0 +1,16 @@
+.summary {
+  text-align: center;
+  padding: 10px;
+}
+
+.summary h2 {
+  font-size: 1.3rem;
+  color: #6366f1;
+  margin-bottom: 5px;
+}
+
+.summary h4 {
+  font-size: 1.1rem;
+  color: #8284eb;
+  margin-bottom: 10px;
+}

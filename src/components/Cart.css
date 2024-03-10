@@ -1,0 +1,118 @@
+.cart-box {
+  position: relative;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  max-height: 500px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cart-box header {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-box header h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cart-box header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.cart-box .cart-list {
+  width: 100%;
+  height: calc(100% - 150px);
+  overflow: auto;
+  padding: 10px;
+}
+
+.cart-box .cart-list .cart-item {
+  width: 100%;
+  padding: 10px;
+  background: #f3f3f3;
+  margin: 5px 0;
+}
+
+.cart-box .cart-list .cart-item h2 {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #6366f1;
+}
+
+.cart-box .cart-list .cart-item .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cart-box .cart-list .cart-item .row p {
+  font-size: 0.8rem;
+}
+
+.cart-box .cart-list .cart-item .row p span {
+  font-weight: 600;
+  color: crimson;
+}
+
+.cart-box .cart-list .cart-item .row .right input {
+  width: fit-content;
+  max-width: 60px;
+  padding: 2px 4px;
+  border: 1px solid #7779f1;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.cart-box .cart-list .cart-item p {
+  font-size: 0.65rem;
+  color: #4b5563;
+}
+
+.cart-box .footer {
+  width: 100%;
+  max-height: 90px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.cart-box .footer p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-box .footer p span {
+  color: #6366f1;
+}
+.cart-box .footer button {
+  width: 100%;
+  padding: 5px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,59 @@
+.card {
+  padding: 10px;
+  margin: 10px;
+  background: #f2f2f2;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #6366f1;
+}
+
+.card .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card .row p {
+  margin-right: 20px;
+}
+
+.card .row .right input {
+  width: fit-content;
+  max-width: 80px;
+  padding: 3px 10px;
+  border: 1px solid #7779f1;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.card .row .right button {
+  border: none;
+  outline: none;
+  background: #7779f1;
+  color: #fff;
+  font-weight: 500;
+  padding: 3px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card .row .right button:hover {
+  background: #6366f1;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.card p span {
+  font-weight: 600;
+  color: crimson;
+}
