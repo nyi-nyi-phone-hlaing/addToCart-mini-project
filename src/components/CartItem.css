@@ -16,7 +16,7 @@
   font-size: 0.8rem;
 }
 
-.cart-item p span {
+.cart-item .price span {
   font-weight: 600;
   color: crimson;
 }
@@ -27,9 +27,8 @@
   align-items: center;
 }
 
-.cart-item .row input {
-  width: fit-content;
-  max-width: 50px;
+.cart-item .row .quantity {
+  width: 50px;
   padding: 2;
   border: 1px solid #7779f1;
   outline: none;

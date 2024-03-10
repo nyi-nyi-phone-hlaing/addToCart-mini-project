@@ -10,7 +10,7 @@ const CartItem = ({ fruit }) => {
       </p>
       <div className='row'>
         <button className='decrese'>-</button>
-        <input type='number' min={1} max={10} />
+        <p className='quantity'>1</p>
         <button className='increse'>+</button>
       </div>
     </div>
