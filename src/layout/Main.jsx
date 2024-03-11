@@ -1,13 +1,24 @@
 import Header from "./Header";
 import Body from "./Body";
 import BackDrop from "../components/BackDrop";
+import { useState } from "react";
 
 const Main = () => {
+  const [showCart, setShowCart] = useState(false);
+
+  const showCartHandler = () => {
+    setShowCart(true);
+  };
+
+  const hideCartHandler = () => {
+    setShowCart(false);
+  };
+
   return (
     <>
-      <Header />
+      <Header showCartHandler={showCartHandler} />
       <Body />
-      <BackDrop />
+      <BackDrop showCart={showCart} hideCartHandler={hideCartHandler} />
     </>
   );
 };
